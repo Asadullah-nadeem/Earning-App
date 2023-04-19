@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:maxads="http://schemas.applovin.com/android/1.0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ads_activity.b">
+
+    <com.applovin.mediation.ads.MaxAdView
+        android:id="@+id/maxAdView_b"
+        android:layout_width="408dp"
+        android:layout_height="427dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/back_b"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        maxads:adUnitId="YOUR_AD_UNIT_ID" />
+
+    <Button
+        android:id="@+id/back_b"
+        android:layout_width="144dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="41dp"
+        android:background="@drawable/start_b"
+        android:fontFamily="@font/montserrat_bold"
+        android:lineSpacingExtra="-48sp"
+        android:text="@string/Back"
+        android:textAppearance="@style/homerm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bb_activity_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bb_activity_button"
+        android:layout_width="144dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="41dp"
+        android:background="@drawable/start_b"
+        android:fontFamily="@font/montserrat_bold"
+        android:lineSpacingExtra="-48sp"
+        android:text="@string/b"
+        android:textAppearance="@style/homerm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/back_b" />
+</androidx.constraintlayout.widget.ConstraintLayout>

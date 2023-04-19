@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- mobile ui controller-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimaryDark">@color/Pantone</item>
+        <item name="android:windowBackground">@color/Pantone</item>
+        <item name="android:navigationBarColor">@color/Pantone</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- mobile ui controller A and AA-->
+    <style name="AppTheme.other.a" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
+        <item name="android:windowBackground">@drawable/a_img</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- mobile ui controller B and BB-->
+    <style name="AppTheme.other.b" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
+        <item name="android:windowBackground">@drawable/img_b</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--text ui controller-->
+    <style name="start">
+        <item name="android:textSize">59sp</item>
+        <item name="android:textColor">@color/mirage</item>
+    </style>
+
+    <style name="homerm">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">@color/Green_Blue</item>
+    </style>
+
+</resources>
