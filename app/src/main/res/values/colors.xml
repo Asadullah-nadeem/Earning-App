@@ -5,5 +5,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="orangey_yellow">#FFBD12</color>
     <color name="mirage">#18191F</color>
+    <color name="Pantone">#133955</color>
+    <color name="Green_Blue">#1B6CA8</color>
     <color name="Barley_White">#FFF4CC</color>
+    <color name="transparent">#00FFFFFF</color>
 </resources>

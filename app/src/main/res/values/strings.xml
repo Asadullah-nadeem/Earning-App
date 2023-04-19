@@ -4,4 +4,9 @@
     <string name="start">Start</string>
     <string name="more_app">More App</string>
     <string name="rate_app">Rate App</string>
+
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="Back">Back</string>
+
 </resources>

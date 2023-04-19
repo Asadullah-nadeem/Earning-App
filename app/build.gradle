@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace 'in.codeaxe.application_a'
+    namespace 'in.codeaxe.application'
     compileSdk 33
 
     defaultConfig {
-        applicationId "in.codeaxe.application_a"
-        minSdk 23
+        applicationId "in.codeaxe.application"
+        minSdk 21
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -33,13 +33,13 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-
-/*
-    implementation 'com.google.android.gms:play-services-ads-lite:20.6.0'
-*/
-    implementation 'com.facebook.android:audience-network-sdk:6.13.7'
-
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    implementation 'com.applovin:applovin-sdk:11.9.0'
+    implementation 'com.applovin.mediation:facebook-adapter:6.6.0.3'
+    implementation 'com.facebook.android:audience-network-sdk:6.13.7'
+
+
 }

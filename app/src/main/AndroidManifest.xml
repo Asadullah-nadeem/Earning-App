@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -10,19 +12,39 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
-            android:name=".SecondActivity"/>
+            android:name=".ads_activity.bb"
+            android:theme="@style/AppTheme.other.b"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ads_activity.aa"
+            android:theme="@style/AppTheme.other.a"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ads_activity.b"
+            android:theme="@style/AppTheme.other.b"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ads_activity.a"
+            android:theme="@style/AppTheme.other.a"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SecondActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".HomeActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data android:name="applovin.sdk.key"
+            android:value="D6hDuZneSWfcWtxp_HW9keh85khBBcEnTLLstE1a3F2NZXH2O7lXDzACA0H2740UT7aWLgW56NDu4Hi8nFkBcr"/>
     </application>
 
 </manifest>
